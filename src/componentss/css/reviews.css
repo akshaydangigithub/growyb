@@ -1,0 +1,73 @@
+.rContainer {
+  padding-left: 3vmax;
+  padding-right: 3vmax;
+  padding-bottom: 3vmax;
+  padding-top: 3vmax;
+}
+.rImgCon {
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.rImgCon img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.textCon {
+  line-height: 1.8;
+  font-size: 1.2rem;
+  padding-right: 15vmax;
+}
+.name p {
+  margin-top: 13px;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.name div {
+  height: 1px;
+  width: 20px;
+  background-color: rgb(170, 170, 170);
+  margin-right: 10px;
+}
+.SwiperContainer {
+  padding: 5vmax 0;
+}
+
+.swiper-button-next:after {
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.swiper-button-prev:after {
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+@media (max-width: 992px) {
+  .textCon {
+    line-height: initial;
+    font-size: 1rem;
+    padding-right: 4vmax;
+  }
+  .rImgCon {
+    height: 8rem;
+    width: 8rem;
+    margin-left: 2vmax;
+  }
+}
+@media (max-width: 768px) {
+  .rImgCon {
+    margin-bottom: 3vmax;
+  }
+  .textCon {
+    font-size: 1rem;
+    padding-left: 6vmax;
+    text-align: center;
+  }
+  .name {
+    padding-left: 6vmax;
+  }
+}

@@ -1,0 +1,109 @@
+.main-container {
+    display: flex;
+    margin-top: 4rem;
+    flex-direction: column;
+    /* padding: 20px; */
+    height: 100vh;
+    /* Set the main container to full height of the viewport */
+}
+
+.heading {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.content-container {
+    display: flex;
+}
+
+.four-section-container {
+    position: sticky;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin-right: 20px;
+    border-radius: 10px;
+    /* Add spacing between sections and company details */
+}
+
+.section {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+
+.section:hover {
+    background-color: #ddd;
+}
+
+.active {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.side-section {
+    border: 11px solid darkgrey;
+border-radius: 15px;
+    flex: 1;
+    width: 28%;
+    margin-top: 5px;
+    padding: 20px;
+    background-color: #3498db;
+    transition: background-color 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    /* Take up full height of the container */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.side-section:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+    background-color: #297fb8;
+}
+
+.side-section h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.side-section p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.userLogo{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+}
+.midsec{
+    display: flex;
+}
+.side-section2{
+   
+    margin: 1rem;
+    padding: 1rem;
+    flex: 3;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+}

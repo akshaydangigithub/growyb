@@ -1,0 +1,82 @@
+.dCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  position: relative;
+}
+.dCard img:hover {
+  transform: scale(1.03);
+  transition: all 0.4s ease;
+}
+.dDate {
+  font-size: 0.8rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.dDate:hover {
+  color: #ffc050;
+}
+.d-link a {
+  color: #000;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+.d-link:hover .dArrow {
+  transform: translateX(5px);
+  transition: all 0.3s ease-in-out;
+}
+.dCard h5 {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.dCard h5:hover {
+  color: #ffc050;
+}
+
+ul li {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.dIcon {
+  margin-right: 10px;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  color: #3b53d9;
+}
+
+.progress-inner-bottom {
+  position: relative;
+  height: 7px;
+  width: 100%;
+  background-color: rgb(203, 203, 203);
+}
+.after-effect1 {
+  height: 100%;
+  width: 90%;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  background-color: #6272c7;
+  transition: all 1.2s ease;
+}
+.after-effect2 {
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  background-color: #ffc050;
+  transition: all 1.2s ease;
+}
+.after-effect3 {
+  height: 100%;
+  width: 70%;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  background-color: #6272c7;
+  transition: all 1.2s ease;
+}

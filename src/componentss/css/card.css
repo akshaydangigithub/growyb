@@ -1,0 +1,7 @@
+.cLink:hover .arrow {
+  transform: translateX(7px);
+  transition: all 0.2s ease-in-out;
+}
+.pTag {
+  line-height: 1.9;
+}

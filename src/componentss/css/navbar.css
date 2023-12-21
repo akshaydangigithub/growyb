@@ -1,0 +1,81 @@
+.cNav {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+.cNav .left h1 {
+  position: relative;
+  z-index: 99;
+}
+.cNav .left h1::after {
+  position: absolute;
+  content: "";
+  height: 30%;
+  width: 100%;
+  background-color: #ffc050;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.cNav .right span {
+  font-size: 30px;
+  cursor: pointer;
+}
+.sidebar {
+  height: 100%;
+  width: 27vmax;
+  position: fixed;
+  top: 0;
+  right: 0;
+  transition: all 0.2s ease-in-out;
+  z-index: 99999;
+  background-color: #fff;
+  padding-left: 3vmax;
+  padding-top: 9vmax;
+}
+
+.sidebar-active {
+  width: 27vmax;
+}
+
+.sidebar-close {
+  transform: translateX(100%);
+}
+.sidebar .close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 23px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.sidebar ul {
+  list-style: none;
+  position: relative;
+}
+.sidebar ul li {
+  font-size: 1.6vmax;
+  font-weight: 700;
+  margin-bottom: 20px;
+  cursor: pointer;
+  position: relative;
+  width: fit-content;
+  text-transform: uppercase;
+}
+.sidebar ul li::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color: #ffc050;
+    left: 0%;
+    bottom: 0%;
+    transition: all 0.4s ease-in-out;
+}
+.sidebar ul li:hover::after{
+    width: 100%;
+}

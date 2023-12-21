@@ -1,0 +1,35 @@
+.animimgCon {
+  display: flex;
+  overflow-x: auto;
+}
+.animimgCon::-webkit-scrollbar{
+    display: none;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  animation: move 10s linear infinite;
+}
+.img {
+  margin-right: 4vmax;
+}
+
+.img img {
+  position: relative;
+  height: 80%;
+  width: 100%;
+  object-fit: cover;
+  margin-right: 30px;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

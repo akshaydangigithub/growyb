@@ -1,0 +1,17 @@
+/* ButtonWithLoading.css */
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.btn.loading::after {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top-color: #ffffff;
+    animation: spin 1s infinite linear;
+    margin-left: 5px;
+    vertical-align: text-bottom;
+}

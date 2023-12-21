@@ -1,0 +1,112 @@
+.fContainer {
+  background-color: #081f26;
+  color: #ffff;
+}
+.logo {
+  position: relative;
+  font-weight: bolder;
+  width: fit-content;
+  z-index: 2;
+}
+/* .logo::after {
+  position: absolute;
+  content: "";
+  height: 40%;
+  width: 100%;
+  background-color: #ffc050;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+} */
+.fPTag {
+  line-height: 1.8;
+}
+.fLinks {
+  font-weight: bolder;
+}
+.fSecondSection ul li {
+  cursor: pointer;
+}
+.fThirdSection {
+  display: flex;
+}
+.twitter {
+  font-size: 1.3rem;
+  color: #41b7d8;
+}
+.fFourthSection {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+.fSocialIcons {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 1.7rem;
+}
+.fSocialIcons:hover {
+  background-color: #ffc050;
+  transition: all 0.3s ease-in-out;
+}
+.fSocialIcons:hover .fIcons {
+  color: white;
+}
+.fIcons {
+  color: #1c1c1c;
+  font-size: 1.7rem;
+}
+.fHover {
+  position: relative;
+  width: fit-content;
+}
+.fHover::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 0%;
+  background-color: #ffc050;
+  left: 0;
+  bottom: 0;
+  transition: all 0.3s ease-in-out;
+}
+.fHover:hover::after {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.fHover:hover {
+  color: #ffc050;
+  transition: all 0.3s ease-in-out;
+}
+
+.copyRight {
+  color: #ffc050;
+  animation: changeColor 3s infinite;
+}
+
+@keyframes changeColor {
+  0% {
+    color: #ffc050;
+  }
+  50% {
+    color: #1c1c1c;
+  }
+  100% {
+    color: #ffc050;
+  }
+}
+
+
+@media (max-width:500px) {
+  .fIcons{
+    font-size: 1.3rem;
+  }
+  .fSocialIcons{
+    width: 50px !important;
+    height: 40px !important;
+  }
+}
