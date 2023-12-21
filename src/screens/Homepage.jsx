@@ -16,7 +16,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 
 const Homepage = () => {
   useEffect(() => {
-    // Register ScrollTrigger plugin
+    // Register ScrollTrigger pluginn
     gsap.registerPlugin(ScrollTrigger);
 
     gsap.set(".topArrow", { scale: 0 });
