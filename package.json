@@ -68,17 +68,14 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "netlify-plugin-force-npm-install": "npm install --force"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
-  },
-  "engines": {
-    "node": "14.x",
-    "npm": "6.x"
   },  
   "browserslist": {
     "production": [
